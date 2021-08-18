@@ -6,10 +6,12 @@ import com.app.model.Products;
 import com.app.model.Customers;
 
 public interface EmployeeDAO {
+	public boolean addproduct(Products product) throws BusinessException;
+	public boolean deleteproduct(int productid) throws BusinessException;
+	public boolean modifyproductquantity(int productid,int newquantity) throws BusinessException;
+	
 	public List<Customers> getallcustomers() throws BusinessException;
-	public int addproduct(Products product) throws BusinessException;
 	public int markshipped(Products product) throws BusinessException;
-	public int deleteproduct(Products product) throws BusinessException;
-	int validateemployee(String empname, String emppassword) throws BusinessException;
+	//int validateemployee(String empname, String emppassword) throws BusinessException;
 	
 }

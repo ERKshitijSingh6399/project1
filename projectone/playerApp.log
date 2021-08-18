@@ -1,0 +1,167 @@
+[main] 2021-08-18 12:32:07 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:32:07 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:32:16 INFO  com.app.EmployeeLogin  - Exiting!!
+[main] 2021-08-18 12:32:20 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:32:20 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:32:23 INFO  com.app.EmployeeLogin  - Enter Correct Choice
+[main] 2021-08-18 12:32:23 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:32:23 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:32:28 INFO  com.app.EmployeeLogin  - Enter Correct Choice
+[main] 2021-08-18 12:32:28 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:32:28 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:32:33 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:32:33 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:35:17 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:35:17 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:35:19 INFO  com.app.EmployeeLogin  - Exiting!!
+[main] 2021-08-18 12:35:22 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:35:22 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:35:24 INFO  com.app.EmployeeLogin  - Incorrect Choice : Enter Correct Choice
+[main] 2021-08-18 12:35:24 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:35:24 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:35:26 INFO  com.app.EmployeeLogin  - Incorrect Choice : Enter Correct Choice
+[main] 2021-08-18 12:35:26 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:35:26 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:35:31 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:35:31 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - Employee Login Successful
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 12:35:35 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 15:22:33 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 15:22:33 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 15:22:42 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 15:22:42 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 15:22:42 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 15:22:42 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 15:22:42 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 15:22:42 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 15:22:45 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-18 15:22:45 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Unique Id
+[main] 2021-08-18 15:23:07 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Name
+[main] 2021-08-18 15:23:10 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-18 15:23:13 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-18 15:23:17 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-18 15:23:19 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-18 15:23:27 ERROR com.app.dao.impl.EmployeeDAOimpl  - java.sql.SQLException: Parameter index out of range (6 > number of parameters, which is 5).
+[main] 2021-08-18 15:23:27 WARN  com.app.EmployeeLogin  - Internal error occured contact sysadmin
+[main] 2021-08-18 15:23:27 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 15:23:27 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 15:23:27 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 15:23:27 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 15:23:27 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 15:23:27 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 15:25:13 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 15:25:13 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 15:25:17 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 15:25:17 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 15:25:17 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 15:25:17 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 15:25:17 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 15:25:17 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 15:25:19 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-18 15:25:19 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-18 15:25:21 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-18 15:25:26 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-18 15:25:34 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-18 15:25:37 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-18 15:25:42 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-18 15:25:42 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 15:25:42 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 15:25:42 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 15:25:42 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 15:25:42 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 15:25:42 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 15:28:12 INFO  com.app.EmployeeLogin  - Logging out
+[main] 2021-08-18 16:17:59 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 16:17:59 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 16:18:10 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 16:18:10 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 16:18:10 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 16:18:10 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 16:18:10 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 16:18:10 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 16:18:14 INFO  com.app.EmployeeLogin  - Modify Quantity of Existing Products
+[main] 2021-08-18 16:18:14 INFO  com.app.EmployeeLogin  - Enter Product Id to modify quantity for that product:
+[main] 2021-08-18 16:18:16 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter New Quantity : 
+[main] 2021-08-18 16:18:24 ERROR com.app.dao.impl.EmployeeDAOimpl  - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+[main] 2021-08-18 16:18:24 WARN  com.app.EmployeeLogin  - Internal Server Error: Could not update product quantity
+[main] 2021-08-18 16:18:24 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 16:18:24 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 16:18:24 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 16:18:24 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 16:18:24 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 16:18:24 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 16:18:51 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 16:18:51 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 16:18:55 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 16:18:55 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 16:18:55 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 16:18:55 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 16:18:55 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 16:18:55 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 16:18:57 INFO  com.app.EmployeeLogin  - Modify Quantity of Existing Products
+[main] 2021-08-18 16:18:57 INFO  com.app.EmployeeLogin  - Enter Product Id to modify quantity for that product:
+[main] 2021-08-18 16:18:58 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter New Quantity : 
+[main] 2021-08-18 16:19:03 INFO  com.app.EmployeeLogin  - Product Quantity Updated Successfully
+[main] 2021-08-18 16:19:03 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 16:19:03 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 16:19:03 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 16:19:03 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 16:19:03 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 16:19:03 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-08-18 16:25:43 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 16:25:43 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 16:25:48 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 16:25:48 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 16:25:48 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 16:25:48 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 16:25:48 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 16:25:48 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-18 16:25:48 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-18 16:25:50 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-18 16:25:50 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-18 16:25:58 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-18 16:26:03 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-18 16:26:06 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-18 16:26:09 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-18 16:26:14 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-18 16:26:19 INFO  com.app.EmployeeLogin  - Modify Quantity of Existing Products
+[main] 2021-08-18 16:26:19 INFO  com.app.EmployeeLogin  - Enter Product Id to modify quantity for that product:
+[main] 2021-08-18 16:26:22 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter New Quantity : 
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - Product Quantity Updated Successfully
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - 
+Employee Login Successful
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-18 16:26:28 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-18 16:26:40 INFO  com.app.EmployeeLogin  - Remove Existing Product
+[main] 2021-08-18 16:26:40 INFO  com.app.EmployeeLogin  - Enter Product Id to Remove:
+[main] 2021-08-18 16:26:42 INFO  com.app.EmployeeLogin  - Product Deleted Successfully
+[main] 2021-08-18 16:26:42 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-18 16:26:42 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-18 16:26:47 INFO  com.app.EmployeeLogin  - Exiting!!
