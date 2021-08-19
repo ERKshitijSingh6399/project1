@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
-import com.app.EmployeeLogin;
 import com.app.dao.EmployeeDAO;
 import com.app.dao.impl.EmployeeDAOimpl;
 import com.app.exception.BusinessException;
 import com.app.model.Customers;
+import com.app.model.Orders;
 import com.app.model.Products;
 import com.app.search.service.EmployeeSearchService;
 
@@ -48,14 +48,18 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService{
 
 	@Override
 	public List<Customers> viewcustomerdetails() throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Products markorderasshipped() throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		//List<Customers> customerlist=null;
+//		log1.info("\nChoose Filter:");
+//		log1.info("");
+//		log1.info("");
+//		log1.info("");
+//		
+//		if(true) {
+		 List<Customers> customerlist=employeesearchdao.getallcustomers();
+//		}else {
+//			throw new BusinessException("Make Correct Choice");
+//		}
+		return customerlist;
 	}
 
 	@Override
@@ -78,6 +82,20 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService{
 		else
 		{return false;}
 		}catch(Exception e) {return false;}
+	}
+
+	@Override
+	public boolean updateorderbyemployee(List<Integer> olist) throws BusinessException {
+		if(olist!=null)
+		{return employeesearchdao.updateorderbyemployee(olist);}
+		else
+		return false;
+	}
+
+	@Override
+	public List<Orders> viewallorders() throws BusinessException {
+		List<Orders> orderlist=employeesearchdao.viewallorders();
+		return orderlist;
 	}
 
 }

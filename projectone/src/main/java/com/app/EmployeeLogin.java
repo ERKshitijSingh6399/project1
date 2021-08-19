@@ -1,13 +1,32 @@
 package com.app;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
-import org.apache.log4j.Logger;
+import java.util.regex.Pattern;
 
+import org.apache.log4j.Logger;
+import com.app.model.Customers;
+import com.app.model.Orders;
 import com.app.exception.BusinessException;
 import com.app.search.service.EmployeeSearchService;
 import com.app.search.service.impl.EmployeeSearchServiceImpl;
 
 public class EmployeeLogin {
+	public static boolean employeecredentialscheck(String empname, String emppassword){
+		if(empname.equals("abc") && emppassword.equals("abc"))
+			return true;
+		else
+			return false;
+	}
+	public static boolean checkforspecialcharacter(String name){
+		if(Pattern.matches("(.)*(\\W)(.)*", name))//this checks for special characters in name
+		{
+			return true;
+		}
+		else
+			return false;
+	}
 	private static Logger log = Logger.getLogger(EmployeeLogin.class);
 
 	public static void main(String[] args) {
@@ -16,17 +35,17 @@ public class EmployeeLogin {
 		EmployeeSearchService employeesearchserviceobject = new EmployeeSearchServiceImpl();
 		System.out.println("-------SHOP PROJECT------");
 		System.out.println("---EMPLOYEE LOGIN PAGE---");
-		int tries=0;
 		do {
 		log.info("1.Login");
 		log.info("2.Exit");
 		choice=sc.nextInt();
 		switch(choice) {
 		case 1:System.out.print("Enter Username: ");
-		String empname=sc.next();
-		System.out.print("Enter Password: ");
-		String emppassword=sc.next();
-		if(empname.equals("abc") && emppassword.equals("abc"))
+			   String empname=sc.next();
+			   if(checkforspecialcharacter(empname)) {break;}//if contains special character then break
+			   System.out.print("Enter Password: ");
+			   String emppassword=sc.next();
+		if(employeecredentialscheck(empname,emppassword))
 		{
 			do {
 			log.info("\nEmployee Login Successful");
@@ -39,6 +58,16 @@ public class EmployeeLogin {
 			ch=sc.nextInt();
 			switch(ch){
 			case 1:log.info("Showing Customer Details");
+					try {
+						 List<Customers> customerlist=employeesearchserviceobject.viewcustomerdetails();
+						 if(customerlist!=null && customerlist.size()>0) {
+							 log.info("Total there are "+customerlist.size()+" number of Customers");
+							 for(Customers c:customerlist) {
+								 log.info(c);
+							 }
+						 }
+					}catch (BusinessException e)
+						{log.warn(e.getMessage());}
 				   break;
 			case 2:log.info("Add New Products");
 					try{boolean answer1=employeesearchserviceobject.addnewproducts();
@@ -47,7 +76,44 @@ public class EmployeeLogin {
 					}catch(BusinessException e) {log.warn(e.getMessage());}
 					break;
 			case 3:log.info("Mark Order as Shipped");
-			       break;
+					try {
+						List<Orders> orderlist=employeesearchserviceobject.viewallorders();
+						if(orderlist!=null && orderlist.size()>0) {
+							log.info("Total there are "+orderlist.size()+" number of All Orders");
+							for(Orders or:orderlist) {
+								log.info(or);
+							}
+						}
+						log.info("1. Mark Multiple Orders as Shipped");
+						log.info("2. Go back");
+						log.info("Enter Choice");
+						int i=sc.nextInt();
+						if(i==1)
+						{
+							List<Integer> olist = new ArrayList<Integer>();
+							int tempo=0;
+							log.info("Keep Entering OrderId of all Products you want to update as Recieved");
+							log.info("Enter 0 when finished");
+							log.info("Enter here:");
+							do{
+								tempo=sc.nextInt();
+								if(tempo>0)
+									olist.add(tempo);
+							}while(tempo>0);
+							//update orders here
+							if(employeesearchserviceobject.updateorderbyemployee(olist))
+							{
+								log.info("Successfully Updates as Shippped");
+							}
+							else {log.info("Not even a single Orders updated as shipped");}
+						}
+						else
+							if(i!=1) {
+								log.info("Going Back!!");
+							}
+					}catch (BusinessException e)
+						{log.warn(e.getMessage());}
+					break;
 			case 4:log.info("Modify Quantity of Existing Products");
 					try{
 						log.info("Enter Product Id to modify quantity for that product:");
