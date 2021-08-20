@@ -23,19 +23,19 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService{
 		Products p=new Products();
 		try{
 		log1.info("Enter Product Name");
-		String name=sc.next();
+		String name=sc.nextLine();
 		p.setProduct_name(name);
 		log1.info("Product Type");
-		String pt=sc.next();
+		String pt=sc.nextLine();
 		p.setProduct_type(pt);
 		log1.info("Product Price");
-		double price=sc.nextDouble();
+		double price=Double.parseDouble(sc.nextLine());
 		p.setProduct_price(price);
 		log1.info("Product Quantity");
-		int q=sc.nextInt();
+		int q=Integer.parseInt(sc.nextLine());
 		p.setProduct_quantity(q);
 		log1.info("Product Company");
-		String company=sc.next();
+		String company=sc.nextLine();
 		p.setProduct_company(company);
 		}catch(Exception e) {
 			throw new BusinessException("Error in inputing details");
@@ -48,14 +48,33 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService{
 
 	@Override
 	public List<Customers> viewcustomerdetails() throws BusinessException {
-		//List<Customers> customerlist=null;
-//		log1.info("\nChoose Filter:");
-//		log1.info("");
-//		log1.info("");
-//		log1.info("");
-//		
-//		if(true) {
-		 List<Customers> customerlist=employeesearchdao.getallcustomers();
+		List<Customers> customerlist=null;
+		log1.info("\nChoose Filter:");
+		log1.info("1. By Email");
+		log1.info("2. By ContactNo");
+		log1.info("3. By Name");
+		log1.info("4. No Filter");
+		log1.info("Enter choice: ");
+		String str;
+		int filterchoice=Integer.parseInt(sc.nextLine());
+		switch(filterchoice){
+		case 1: log1.info("Enter Email");
+				str=sc.nextLine();
+				customerlist=employeesearchdao.getallcustomersbyemail(str);
+				break;
+		case 2: log1.info("Enter Contact Number");
+				str=sc.nextLine();
+				customerlist=employeesearchdao.getallcustomersbycontact(str);
+				break;
+		case 3: log1.info("Enter Customer Name");
+				str=sc.nextLine();
+				customerlist=employeesearchdao.getallcustomersbyname(str);
+				break;
+		case 4:customerlist=employeesearchdao.getallcustomers();
+				break;
+		default:log1.info("Invalid Choice : Going back");
+		}
+		
 //		}else {
 //			throw new BusinessException("Make Correct Choice");
 //		}
@@ -65,7 +84,7 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService{
 	@Override
 	public boolean modifyproductsquantity(int productid) throws BusinessException {
 		log1.info("Enter New Quantity : ");
-		int newquantity=sc.nextInt();
+		int newquantity=Integer.parseInt(sc.nextLine());
 		try {
 		if(employeesearchdao.modifyproductquantity(productid,newquantity))
 		{return true;}

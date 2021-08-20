@@ -150,6 +150,7 @@ public class EmployeeLogin {
 		}
 		}while(choice!=2);
 		sc.close();
+//		Main.main(null);
 //		try{
 //			int ve=empp.validateemployee(empname,emppassword);
 //			if(ve==1) {}

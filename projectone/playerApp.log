@@ -1035,3 +1035,845 @@ Employee Login Successful
 [main] 2021-08-20 00:09:40 INFO  com.app.EmployeeLogin  - 2.Exit
 [main] 2021-08-20 00:09:45 INFO  com.app.EmployeeLogin  - 1.Login
 [main] 2021-08-20 00:09:45 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 00:24:22 INFO  com.app.CustomerLogin  - 
+1. Register New Account
+[main] 2021-08-20 00:24:22 INFO  com.app.CustomerLogin  - 2. Login
+[main] 2021-08-20 00:24:22 INFO  com.app.CustomerLogin  - 3. Exit
+[main] 2021-08-20 00:24:22 INFO  com.app.CustomerLogin  - Enter your choice
+[main] 2021-08-20 00:24:24 INFO  com.app.CustomerLogin  - Exiting!!
+[main] 2021-08-20 00:28:42 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 00:28:42 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 00:42:21 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 00:42:24 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 00:42:24 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 00:42:29 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 00:42:29 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 00:42:29 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 00:42:29 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 00:42:29 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 00:42:29 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 00:42:29 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 00:42:33 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - Total there are 2 number of Customers
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ash999, Password=ash999, FirstName=Ash, LastName=Benson, Email=ash123@gmail.com, gender=M, Address=B32 Bleecker Street, New York, ContactNo=9879879871]
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ksh999, Password=ksh999, FirstName=ksh, LastName=singh, Email=ksh@gmail.com, gender=M, Address=l-771, new york, usa, ContactNo=8989898901]
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 00:42:37 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 00:42:42 INFO  com.app.EmployeeLogin  - Logging out
+[main] 2021-08-20 00:42:42 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 00:42:45 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 00:42:45 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 00:42:45 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 00:42:45 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:42:48 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-08-20 00:42:48 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-08-20 00:42:56 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-08-20 00:42:59 INFO  com.app.EmployeeLogin  - Login Successful
+[main] 2021-08-20 00:42:59 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 00:42:59 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 00:42:59 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 00:42:59 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 00:42:59 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:43:02 INFO  com.app.EmployeeLogin  - Showing All Products
+[main] 2021-08-20 00:43:02 INFO  com.app.EmployeeLogin  - Total there are 1 number of Products you can buy
+[main] 2021-08-20 00:43:02 INFO  com.app.EmployeeLogin  - Product [ProductId=1, Product Name=tv, ProductType=electronic, ProductPrice=3000.3, ProductQuantity=20, ProductCompany=sony]
+[main] 2021-08-20 00:43:02 INFO  com.app.EmployeeLogin  - 1. Add to Cart
+[main] 2021-08-20 00:43:02 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 00:43:02 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 00:43:06 INFO  com.app.EmployeeLogin  - Going Back!!
+[main] 2021-08-20 00:43:06 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 00:43:06 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 00:43:06 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 00:43:06 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 00:43:06 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:43:08 INFO  com.app.EmployeeLogin  - Your Cart
+[main] 2021-08-20 00:43:08 WARN  com.app.EmployeeLogin  - Cart Empty
+[main] 2021-08-20 00:43:08 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 00:43:08 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 00:43:08 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 00:43:08 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 00:43:08 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - Your Orders
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - Total there are 2 number of your Orders
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - Orders [orderid=1, productid=1, productname=tv, customerid=ash999, total=33.3, customerstatus=Recieved, sellerstatus=Shipped]
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - Orders [orderid=2, productid=1, productname=tv, customerid=ash999, total=3000.3, customerstatus=Recieved, sellerstatus=Not Shipped]
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - Your Orders Total: 3033.6
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - 1. Mark Multiple Orders as Received
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 00:43:10 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 00:43:14 INFO  com.app.EmployeeLogin  - Going Back!!
+[main] 2021-08-20 00:43:14 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 00:43:14 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 00:43:14 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 00:43:14 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 00:43:14 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:43:15 INFO  com.app.EmployeeLogin  - Going back to Main Menu
+[main] 2021-08-20 00:43:17 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 00:43:17 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 00:43:17 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 00:43:17 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:43:21 INFO  com.app.EmployeeLogin  - Exiting!!
+[main] 2021-08-20 00:43:22 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 00:44:19 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 00:44:21 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 00:44:21 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 00:44:21 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 00:44:21 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:44:22 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-08-20 00:44:22 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-08-20 00:44:25 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-08-20 00:44:28 WARN  com.app.EmployeeLogin  - Internal Server Error: Forced Logout or Login Error(Invalid Credentials)
+[main] 2021-08-20 00:44:28 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 00:44:28 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 00:44:28 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 00:44:28 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 00:44:33 INFO  com.app.EmployeeLogin  - Exiting!!
+[main] 2021-08-20 00:44:34 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 00:44:36 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 00:44:36 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 00:44:40 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 00:44:40 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 00:44:44 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 00:44:44 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 00:44:46 INFO  com.app.EmployeeLogin  - Exiting!!
+[main] 2021-08-20 00:44:46 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:26:19 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:26:23 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 10:26:23 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 10:26:29 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:26:29 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:26:29 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:26:29 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:26:29 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:26:29 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:26:29 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:26:33 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:26:33 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:26:46 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:26:49 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 10:26:57 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-20 10:27:00 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:27:16 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:27:22 INFO  com.app.EmployeeLogin  - Logging out
+[main] 2021-08-20 10:27:22 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:27:24 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 10:27:24 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 10:27:24 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 10:27:24 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 10:27:38 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:27:41 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 10:27:41 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 10:27:41 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 10:27:41 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 10:27:44 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-08-20 10:27:44 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-08-20 10:28:29 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-08-20 10:28:34 INFO  com.app.EmployeeLogin  - Login Successful
+[main] 2021-08-20 10:28:34 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 10:28:34 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 10:28:34 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 10:28:34 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 10:28:34 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 10:28:36 INFO  com.app.EmployeeLogin  - Showing All Products
+[main] 2021-08-20 10:28:37 INFO  com.app.EmployeeLogin  - Total there are 2 number of Products you can buy
+[main] 2021-08-20 10:28:37 INFO  com.app.EmployeeLogin  - Product [ProductId=1, Product Name=tv, ProductType=electronic, ProductPrice=3000.3, ProductQuantity=20, ProductCompany=sony]
+[main] 2021-08-20 10:28:37 INFO  com.app.EmployeeLogin  - Product [ProductId=3, Product Name=Hatchet, ProductType=Tool, ProductPrice=35.75, ProductQuantity=30, ProductCompany=John]
+[main] 2021-08-20 10:28:37 INFO  com.app.EmployeeLogin  - 1. Add to Cart
+[main] 2021-08-20 10:28:37 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 10:28:37 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 10:28:45 INFO  com.app.EmployeeLogin  - Going Back!!
+[main] 2021-08-20 10:28:45 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 10:28:45 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 10:28:45 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 10:28:45 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 10:28:45 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 10:28:47 INFO  com.app.EmployeeLogin  - Going back to Main Menu
+[main] 2021-08-20 10:28:49 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 10:28:49 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 10:28:49 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 10:28:49 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 10:28:50 INFO  com.app.EmployeeLogin  - Exiting!!
+[main] 2021-08-20 10:28:51 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:29:14 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:29:18 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 10:29:18 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 10:29:24 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:29:24 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:29:24 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:29:24 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:29:24 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:29:24 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:29:24 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:29:28 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:29:28 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:29:36 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:29:40 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 10:29:44 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-20 10:29:47 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:30:00 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:30:02 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:30:02 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:30:02 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:31:47 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:31:50 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 10:31:50 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 10:31:54 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:31:54 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:31:54 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:31:54 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:31:54 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:31:54 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:31:54 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:31:56 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:31:56 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:32:11 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:32:14 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 10:32:19 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-20 10:32:22 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:32:39 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:32:42 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:32:42 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:32:42 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:35:53 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 10:35:57 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-20 10:36:00 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:36:03 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:36:06 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:36:06 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:36:13 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:36:17 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 10:36:20 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-20 10:36:29 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:36:32 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:36:33 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:36:33 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:36:33 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:37:09 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:37:10 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 10:37:10 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 10:37:15 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:37:15 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:37:15 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:37:15 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:37:15 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:37:15 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:37:15 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:37:16 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:37:16 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:37:24 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:37:26 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 10:37:28 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-20 10:37:30 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:37:36 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:37:38 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 10:37:38 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 10:37:50 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 10:37:50 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 10:45:11 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 10:45:14 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 10:45:14 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 10:45:17 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:45:17 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:45:17 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:45:17 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:45:17 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:45:17 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:45:17 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:45:20 INFO  com.app.EmployeeLogin  - Remove Existing Product
+[main] 2021-08-20 10:45:20 INFO  com.app.EmployeeLogin  - Enter Product Id to Remove:
+[main] 2021-08-20 10:45:31 WARN  com.app.EmployeeLogin  - Internal Server Error: Could not remove product
+[main] 2021-08-20 10:45:31 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:45:31 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:45:31 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:45:31 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:45:31 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:45:31 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:45:31 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:46:57 INFO  com.app.EmployeeLogin  - Remove Existing Product
+[main] 2021-08-20 10:46:57 INFO  com.app.EmployeeLogin  - Enter Product Id to Remove:
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - Product Deleted Successfully
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:47:00 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:47:02 INFO  com.app.EmployeeLogin  - Remove Existing Product
+[main] 2021-08-20 10:47:02 INFO  com.app.EmployeeLogin  - Enter Product Id to Remove:
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - Product Deleted Successfully
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:47:03 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:47:05 INFO  com.app.EmployeeLogin  - Remove Existing Product
+[main] 2021-08-20 10:47:05 INFO  com.app.EmployeeLogin  - Enter Product Id to Remove:
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - Product Deleted Successfully
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:47:06 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - Incorrect Choice : Enter Correct Choice
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 10:47:08 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 10:47:10 INFO  com.app.EmployeeLogin  - Logging out
+[main] 2021-08-20 10:47:10 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:24:02 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:24:42 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 11:24:42 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 11:24:42 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 11:24:42 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:24:44 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-08-20 11:24:44 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-08-20 11:24:47 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-08-20 11:24:51 INFO  com.app.EmployeeLogin  - Login Successful
+[main] 2021-08-20 11:24:51 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 11:24:51 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 11:24:51 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 11:24:51 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 11:24:51 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:24:53 INFO  com.app.EmployeeLogin  - Showing All Products
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - Total there are 4 number of Products you can buy
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - Product [ProductId=1, Product Name=tv, ProductType=electronic, ProductPrice=3000.3, ProductQuantity=20, ProductCompany=sony]
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - Product [ProductId=3, Product Name=Hatchet, ProductType=Tool, ProductPrice=35.75, ProductQuantity=30, ProductCompany=John]
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - Product [ProductId=4, Product Name=Hammer, ProductType=Tool, ProductPrice=20.23, ProductQuantity=40, ProductCompany=Jims]
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - Product [ProductId=5, Product Name=Knife, ProductType=Weapon, ProductPrice=10.0, ProductQuantity=40, ProductCompany=Sam]
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - 1. Add to Cart
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 11:24:54 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 11:25:01 INFO  com.app.EmployeeLogin  - Going Back!!
+[main] 2021-08-20 11:25:01 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 11:25:01 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 11:25:01 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 11:25:01 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 11:25:01 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - Your Orders
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - Total there are 2 number of your Orders
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - Orders [orderid=1, productid=1, productname=tv, customerid=ash999, total=33.3, customerstatus=Recieved, sellerstatus=Shipped]
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - Orders [orderid=2, productid=1, productname=tv, customerid=ash999, total=3000.3, customerstatus=Recieved, sellerstatus=Not Shipped]
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - Your Orders Total: 3033.6
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - 1. Mark Multiple Orders as Received
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 11:25:04 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 11:25:06 INFO  com.app.EmployeeLogin  - Going Back!!
+[main] 2021-08-20 11:25:06 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 11:25:06 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 11:25:06 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 11:25:06 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 11:25:06 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:25:10 INFO  com.app.EmployeeLogin  - Going back to Main Menu
+[main] 2021-08-20 11:25:12 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 11:25:12 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 11:25:12 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 11:25:12 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:25:14 INFO  com.app.EmployeeLogin  - Exiting!!
+[main] 2021-08-20 11:25:15 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:25:16 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 11:25:16 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 11:25:21 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 11:25:21 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 11:25:21 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 11:25:21 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 11:25:21 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 11:25:21 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 11:25:21 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - Total there are 2 number of Customers
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ash999, Password=ash999, FirstName=Ash, LastName=Benson, Email=ash123@gmail.com, gender=M, Address=B32 Bleecker Street, New York, ContactNo=9879879871]
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ksh999, Password=ksh999, FirstName=ksh, LastName=singh, Email=ksh@gmail.com, gender=M, Address=l-771, new york, usa, ContactNo=8989898901]
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 11:25:26 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 11:25:30 INFO  com.app.EmployeeLogin  - Logging out
+[main] 2021-08-20 11:25:30 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:32:33 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:32:40 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 11:32:40 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 11:32:45 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 11:32:45 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 11:32:45 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 11:32:45 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 11:32:45 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 11:32:45 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 11:32:45 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 11:32:47 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - Total there are 2 number of Customers
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ash999, Password=ash999, FirstName=Ash, LastName=Benson, Email=ash123@gmail.com, gender=M, Address=B32 Bleecker Street, New York, ContactNo=9879879871]
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ksh999, Password=ksh999, FirstName=ksh, LastName=singh, Email=ksh@gmail.com, gender=M, Address=l-771, new york, usa, ContactNo=8989898901]
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 11:32:48 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 11:32:53 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 11:32:53 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 11:33:03 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-08-20 11:33:07 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-08-20 11:33:11 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-08-20 11:33:15 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 11:33:21 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 11:33:24 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-08-20 11:33:24 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-08-20 11:50:44 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:50:47 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 11:50:47 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 11:50:47 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 11:50:47 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:50:49 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-08-20 11:50:49 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-08-20 11:50:51 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-08-20 11:50:57 WARN  com.app.EmployeeLogin  - Internal Server Error: Forced Logout or Login Error(Invalid Credentials)
+[main] 2021-08-20 11:50:57 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 11:50:57 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 11:50:57 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 11:50:57 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:51:03 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:51:05 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 11:51:05 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 11:51:05 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 11:51:05 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:51:07 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-08-20 11:51:07 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-08-20 11:51:09 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-08-20 11:51:13 INFO  com.app.EmployeeLogin  - Login Successful
+[main] 2021-08-20 11:51:13 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 11:51:13 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 11:51:13 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 11:51:13 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 11:51:13 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Showing All Products
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Total there are 5 number of Products you can buy
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Product [ProductId=1, Product Name=tv, ProductType=electronic, ProductPrice=3000.3, ProductQuantity=20, ProductCompany=sony]
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Product [ProductId=3, Product Name=Hatchet, ProductType=Tool, ProductPrice=35.75, ProductQuantity=30, ProductCompany=John]
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Product [ProductId=4, Product Name=Hammer, ProductType=Tool, ProductPrice=20.23, ProductQuantity=40, ProductCompany=Jims]
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Product [ProductId=5, Product Name=Knife, ProductType=Weapon, ProductPrice=10.0, ProductQuantity=40, ProductCompany=Sam]
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Product [ProductId=9, Product Name=Tape, ProductType=Stationary, ProductPrice=30.0, ProductQuantity=10, ProductCompany=Duct Tape]
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - 1. Add to Cart
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 11:51:14 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 11:51:16 INFO  com.app.EmployeeLogin  - Keep Entering ProductId of all Products you want in cart
+[main] 2021-08-20 11:51:16 INFO  com.app.EmployeeLogin  - Enter 0 when finished
+[main] 2021-08-20 11:51:16 INFO  com.app.EmployeeLogin  - Enter here:
+[main] 2021-08-20 11:51:30 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 11:52:02 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-08-20 11:52:02 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-08-20 11:52:02 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-08-20 11:52:02 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:52:06 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-08-20 11:52:06 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-08-20 11:52:08 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-08-20 11:52:11 INFO  com.app.EmployeeLogin  - Login Successful
+[main] 2021-08-20 11:52:11 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 11:52:11 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 11:52:11 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 11:52:11 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 11:52:11 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:52:13 INFO  com.app.EmployeeLogin  - Showing All Products
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - Total there are 5 number of Products you can buy
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - Product [ProductId=1, Product Name=tv, ProductType=electronic, ProductPrice=3000.3, ProductQuantity=20, ProductCompany=sony]
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - Product [ProductId=3, Product Name=Hatchet, ProductType=Tool, ProductPrice=35.75, ProductQuantity=30, ProductCompany=John]
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - Product [ProductId=4, Product Name=Hammer, ProductType=Tool, ProductPrice=20.23, ProductQuantity=40, ProductCompany=Jims]
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - Product [ProductId=5, Product Name=Knife, ProductType=Weapon, ProductPrice=10.0, ProductQuantity=40, ProductCompany=Sam]
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - Product [ProductId=9, Product Name=Tape, ProductType=Stationary, ProductPrice=30.0, ProductQuantity=10, ProductCompany=Duct Tape]
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - 1. Add to Cart
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 11:52:14 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 11:52:16 INFO  com.app.EmployeeLogin  - Keep Entering ProductId of all Products you want in cart
+[main] 2021-08-20 11:52:16 INFO  com.app.EmployeeLogin  - Enter 0 when finished
+[main] 2021-08-20 11:52:16 INFO  com.app.EmployeeLogin  - Enter here:
+[main] 2021-08-20 11:52:21 INFO  com.app.EmployeeLogin  - Successfully Added To Cart
+[main] 2021-08-20 11:52:21 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 11:52:21 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 11:52:21 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 11:52:21 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 11:52:21 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - Your Cart
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - Total there are 3 number of Records in your Cart
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - [Cartid= 2, CustomerId= ash999, ProductId= 1, ProductPrice= 3000.3, ProductName= tv, ProductType= electronic, ProductCompany= sony]
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - [Cartid= 3, CustomerId= ash999, ProductId= 3, ProductPrice= 35.75, ProductName= Hatchet, ProductType= Tool, ProductCompany= John]
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - [Cartid= 4, CustomerId= ash999, ProductId= 4, ProductPrice= 20.23, ProductName= Hammer, ProductType= Tool, ProductCompany= Jims]
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - Your Cart Total: 3056.28
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - 1. Place Order on Cart items
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-08-20 11:52:24 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-08-20 11:52:26 INFO  com.app.EmployeeLogin  - Going Back!!
+[main] 2021-08-20 11:52:26 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-08-20 11:52:26 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-08-20 11:52:26 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-08-20 11:52:26 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-08-20 11:52:26 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-08-20 13:02:14 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 13:02:28 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 13:02:28 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 13:02:33 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:02:33 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:02:33 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:02:33 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:02:33 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:02:33 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:02:33 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:02:39 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 13:02:39 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 
+Choose Filter:
+[main] 2021-08-20 13:02:39 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 1. By Email
+[main] 2021-08-20 13:02:39 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 2. By ContactNo
+[main] 2021-08-20 13:02:39 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 3. By Name
+[main] 2021-08-20 13:02:39 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 4. No Filter
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - Total there are 2 number of Customers
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ash999, Password=ash999, FirstName=Ash, LastName=Benson, Email=ash123@gmail.com, gender=M, Address=B32 Bleecker Street, New York, ContactNo=9879879871]
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ksh999, Password=ksh999, FirstName=ksh, LastName=singh, Email=ksh@gmail.com, gender=M, Address=l-771, new york, usa, ContactNo=8989898901]
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:02:46 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:02:51 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 13:02:51 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 
+Choose Filter:
+[main] 2021-08-20 13:02:51 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 1. By Email
+[main] 2021-08-20 13:02:51 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 2. By ContactNo
+[main] 2021-08-20 13:02:51 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 3. By Name
+[main] 2021-08-20 13:02:51 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 4. No Filter
+[main] 2021-08-20 13:03:13 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Email
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - Total there are 1 number of Customers
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ash999, Password=ash999, FirstName=Ash, LastName=Benson, Email=ash123@gmail.com, gender=M, Address=B32 Bleecker Street, New York, ContactNo=9879879871]
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:03:21 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:03:24 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 13:03:24 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 
+Choose Filter:
+[main] 2021-08-20 13:03:24 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 1. By Email
+[main] 2021-08-20 13:03:24 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 2. By ContactNo
+[main] 2021-08-20 13:03:24 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 3. By Name
+[main] 2021-08-20 13:03:24 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 4. No Filter
+[main] 2021-08-20 13:03:27 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Email
+[main] 2021-08-20 13:03:29 ERROR com.app.dao.impl.EmployeeDAOimpl  - java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'where clause'
+[main] 2021-08-20 13:03:29 WARN  com.app.EmployeeLogin  - Internal error occured contact sysadmin
+[main] 2021-08-20 13:03:29 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:03:29 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:03:29 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:03:29 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:03:29 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:03:29 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:03:29 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:03:58 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 13:04:03 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 13:04:03 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 13:04:06 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:04:06 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:04:06 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:04:06 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:04:06 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:04:06 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:04:06 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:04:09 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 13:04:09 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 
+Choose Filter:
+[main] 2021-08-20 13:04:09 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 1. By Email
+[main] 2021-08-20 13:04:09 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 2. By ContactNo
+[main] 2021-08-20 13:04:09 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 3. By Name
+[main] 2021-08-20 13:04:09 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 4. No Filter
+[main] 2021-08-20 13:04:10 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Email
+[main] 2021-08-20 13:04:19 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-08-20 13:04:20 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-08-20 13:04:20 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-08-20 13:04:24 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:04:24 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:04:24 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:04:24 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:04:24 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:04:24 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:04:24 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:04:25 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 13:04:25 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 
+Choose Filter:
+[main] 2021-08-20 13:04:25 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 1. By Email
+[main] 2021-08-20 13:04:25 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 2. By ContactNo
+[main] 2021-08-20 13:04:25 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 3. By Name
+[main] 2021-08-20 13:04:25 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 4. No Filter
+[main] 2021-08-20 13:04:28 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Email
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - Total there are 1 number of Customers
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ash999, Password=ash999, FirstName=Ash, LastName=Benson, Email=ash123@gmail.com, gender=M, Address=B32 Bleecker Street, New York, ContactNo=9879879871]
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:04:31 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:04:34 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 13:04:34 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 
+Choose Filter:
+[main] 2021-08-20 13:04:34 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 1. By Email
+[main] 2021-08-20 13:04:34 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 2. By ContactNo
+[main] 2021-08-20 13:04:34 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 3. By Name
+[main] 2021-08-20 13:04:34 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 4. No Filter
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - Total there are 2 number of Customers
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ash999, Password=ash999, FirstName=Ash, LastName=Benson, Email=ash123@gmail.com, gender=M, Address=B32 Bleecker Street, New York, ContactNo=9879879871]
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ksh999, Password=ksh999, FirstName=ksh, LastName=singh, Email=ksh@gmail.com, gender=M, Address=l-771, new york, usa, ContactNo=8989898901]
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:04:35 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:04:36 INFO  com.app.EmployeeLogin  - Showing Customer Details
+[main] 2021-08-20 13:04:36 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 
+Choose Filter:
+[main] 2021-08-20 13:04:36 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 1. By Email
+[main] 2021-08-20 13:04:36 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 2. By ContactNo
+[main] 2021-08-20 13:04:36 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 3. By Name
+[main] 2021-08-20 13:04:36 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - 4. No Filter
+[main] 2021-08-20 13:04:38 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Email
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - Total there are 1 number of Customers
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - Customer [CustomerId=ksh999, Password=ksh999, FirstName=ksh, LastName=singh, Email=ksh@gmail.com, gender=M, Address=l-771, new york, usa, ContactNo=8989898901]
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-08-20 13:04:50 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-08-20 13:04:53 INFO  com.app.EmployeeLogin  - Logging out
+[main] 2021-08-20 13:04:53 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:

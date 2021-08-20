@@ -18,7 +18,7 @@ public class CustomerSearchServiceImpl implements CustomerSearchService{
 	private CustomerDAO customerDAOobject=new CustomerDAOimpl();
 	Scanner sc=new Scanner(System.in);
 
-	//@Override
+	@Override
 	public boolean registernewaccount() throws BusinessException {
 		Customers c=new Customers();
 		int i=0;
@@ -27,7 +27,7 @@ public class CustomerSearchServiceImpl implements CustomerSearchService{
 			logs.info("Its Recommended to make an Id with your name plus numbers(ash999)");
 			do{
 				logs.info("Enter here:");
-				String cid=sc.next();
+				String cid=sc.nextLine();
 				int checkidvalue=customerDAOobject.checkifidexists(cid);
 				if(checkidvalue==1)
 				{
@@ -39,27 +39,25 @@ public class CustomerSearchServiceImpl implements CustomerSearchService{
 				}
 			}while(i==0);
 			logs.info("password");
-			String password=sc.next();
+			String password=sc.nextLine();
 			c.setPassword(password);
 			logs.info("firstname");
-			String fn=sc.next();
+			String fn=sc.nextLine();
 			c.setFirstname(fn);
 			logs.info("lastname");
-			String ln=sc.next();
+			String ln=sc.nextLine();
 			c.setLastname(ln);
 			logs.info("email");
-			String em=sc.next();
+			String em=sc.nextLine();
 			c.setEmail(em);
 			logs.info("address");
-			sc.nextLine();
 			String ad=sc.nextLine();
-			//just a comment
 			c.setAddress(ad);
 			logs.info("gender");
-			String gd=sc.next();
+			String gd=sc.nextLine();
 			c.setGender(gd);
 			logs.info("contactno");
-			String cn=sc.next();
+			String cn=sc.nextLine();
 			c.setContactno(cn);
 		}catch(Exception e) {
 			throw new BusinessException("Error in inputing details");

@@ -18,6 +18,7 @@ import com.app.model.Orders;
 import com.app.model.Products;
 
 public class CustomerDAOimpl implements CustomerDAO{
+	
 	private static Logger log22 = Logger.getLogger(CustomerDAOimpl.class);
 
 	@Override

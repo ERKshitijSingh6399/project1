@@ -181,5 +181,95 @@ public class EmployeeDAOimpl implements EmployeeDAO{
 		}
 		return orderlist;
 	}
+	@Override
+	public List<Customers> getallcustomersbyemail(String str) throws BusinessException {
+		List<Customers> customerlist=new ArrayList<>();
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="select * from customers where email=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1,str);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Customers c=new Customers();
+				c.setCustomerId(resultSet.getString("customerid"));
+				c.setPassword(resultSet.getString("password"));
+				c.setFirstname(resultSet.getString("firstname"));
+				c.setLastname(resultSet.getString("lastname"));
+				c.setEmail(resultSet.getString("email"));
+				c.setAddress(resultSet.getString("address"));
+				c.setGender(resultSet.getString("gender"));
+				c.setContactno(resultSet.getString("contactno"));
+				customerlist.add(c);
+			}
+			
+			if(customerlist.size()==0) {
+				throw new BusinessException("No Customers");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log2.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return customerlist;
+	}
+	@Override
+	public List<Customers> getallcustomersbycontact(String str) throws BusinessException {
+		List<Customers> customerlist=new ArrayList<>();
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="select * from customers where contactno=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1,str);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Customers c=new Customers();
+				c.setCustomerId(resultSet.getString("customerid"));
+				c.setPassword(resultSet.getString("password"));
+				c.setFirstname(resultSet.getString("firstname"));
+				c.setLastname(resultSet.getString("lastname"));
+				c.setEmail(resultSet.getString("email"));
+				c.setAddress(resultSet.getString("address"));
+				c.setGender(resultSet.getString("gender"));
+				c.setContactno(resultSet.getString("contactno"));
+				customerlist.add(c);
+			}
+			
+			if(customerlist.size()==0) {
+				throw new BusinessException("No Customers");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log2.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return customerlist;
+	}
+	@Override
+	public List<Customers> getallcustomersbyname(String str) throws BusinessException {
+		List<Customers> customerlist=new ArrayList<>();
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="select * from customers where firstname=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1,str);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Customers c=new Customers();
+				c.setCustomerId(resultSet.getString("customerid"));
+				c.setPassword(resultSet.getString("password"));
+				c.setFirstname(resultSet.getString("firstname"));
+				c.setLastname(resultSet.getString("lastname"));
+				c.setEmail(resultSet.getString("email"));
+				c.setAddress(resultSet.getString("address"));
+				c.setGender(resultSet.getString("gender"));
+				c.setContactno(resultSet.getString("contactno"));
+				customerlist.add(c);
+			}
+			
+			if(customerlist.size()==0) {
+				throw new BusinessException("No Customers");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log2.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return customerlist;
+	}
 	
 }

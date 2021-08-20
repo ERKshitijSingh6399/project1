@@ -205,5 +205,6 @@ public class CustomerLogin {
 		}
 		}while(choice!=3);
 		sc.close();
+//		Main.main(null);
 	}
 }

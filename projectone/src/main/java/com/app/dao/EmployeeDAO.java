@@ -16,6 +16,8 @@ public interface EmployeeDAO {
 	//int validateemployee(String empname, String emppassword) throws BusinessException;
 	public boolean updateorderbyemployee(List<Integer> olist) throws BusinessException;
 	public List<Orders> viewallorders() throws BusinessException;
-	
-	
+
+	public List<Customers> getallcustomersbyemail(String str) throws BusinessException;
+	public List<Customers> getallcustomersbycontact(String str) throws BusinessException;
+	public List<Customers> getallcustomersbyname(String str) throws BusinessException;
 }

@@ -3,6 +3,12 @@ package com.app;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
+import com.app.exception.BusinessException;
+import com.app.search.service.CustomerSearchService;
+import com.app.search.service.EmployeeSearchService;
+import com.app.search.service.impl.CustomerSearchServiceImpl;
+import com.app.search.service.impl.EmployeeSearchServiceImpl;
+
 class TestcaseEmplogin {
 
 	@Test
@@ -24,4 +30,16 @@ class TestcaseEmplogin {
 		assertEquals(true, EmployeeLogin.checkforspecialcharacter("abcc4!!"), "Invalid Username");
 	}
 
+	@Test
+	void deleteproduct() throws BusinessException {
+		EmployeeSearchService et=new EmployeeSearchServiceImpl();
+		assertEquals(false,et.deleteproduct(2));
+	}
+	
+	@Test
+	void login() throws BusinessException {
+		CustomerSearchService ct=new CustomerSearchServiceImpl();
+		assertEquals(true,ct.login("ash999","ash999"));
+		assertEquals(false,ct.login("ksh","ksh"));
+	}
 }
